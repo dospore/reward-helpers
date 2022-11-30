@@ -1,0 +1,19 @@
+{
+  "name": "fetch-values",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "^5.7.0",
+    "node-fetch": "^3.2.10"
+  },
+  "scripts": {
+    "fetch": "node index.js",
+    "referrals": "node referrals.js",
+    "losses": "node mintBurns.js",
+    "merkle-trading": "node check-trading-merkles.js",
+    "merkle-referral": "node check-referral-merkles.js",
+    "swaps": "node swaps.js"
+  }
+}
